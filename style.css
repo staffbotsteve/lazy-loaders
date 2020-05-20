@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
@@ -30,3 +31,37 @@
         margin: 20px 10px 20px 10px;
         height: auto;
     }
+=======
+margin: 0px;
+padding: 0px;
+font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    text-align: center;
+    font-weight: 900;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 45px;
+    color: white;
+}
+
+.search-container {
+    width: 400px;
+    margin: auto;
+}
+
+.container {
+    min-width: 50%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    height: auto;
+}
+
+.jumbotron {
+    margin: 20px 10px 20px 10px;
+    height: auto;
+}
+
+>>>>>>> master
