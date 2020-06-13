@@ -1,5 +1,12 @@
 var queryURL = "https://valleyforce.secure.force.com/services/apexrest/orderrecords?token=$P$BAkTBLgqfEdYaMUpVpZ0AJYLFg2PPS&limit=500&offset=0"
 
+// JQuery version of CORS Anywhere, fixes CORS Error from Ajax Call
+jQuery.ajaxPrefilter(function(options) {
+  if (options.crossDomain && jQuery.support.cors) {
+      options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+  }
+});
+
 var formatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD',
@@ -10,6 +17,7 @@ $.ajax({
   method: "GET"
 }).then(function (response) {
   
+  // Sort API Response by state
   response.job.sort(function (a, b) {
     if (a.state.toLowerCase() < b.state.toLowerCase()) {
       return -1;
