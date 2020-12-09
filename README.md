@@ -1,12 +1,13 @@
 # Compensation | Cost of Living Compare App
 
 - Travel Nursing is a unique profession and lifestyle
-Registered Nurses from other, remote locations travel to cities to be temporary clinical workers
+  Registered Nurses from other, remote locations travel to cities to be temporary clinical workers
 - Agencies represent these traveling nurses and pay them a portion of their bill rate to the hospital at which they work
 
 ## Installation / Files
 
 Pull the following files from https://staffbotsteve.github.io/lazy-loaders/.
+
 - README.md
 - gsa.html
 - gsa.js
@@ -19,6 +20,7 @@ Pull the following files from https://staffbotsteve.github.io/lazy-loaders/.
 - Select the City, State from list one
 - Select the City, State from list two
 - The result will compare Travel Nurse Jobs' costs of living and compensation in the two cities selected
+
 ```
 
 ## Contributing
@@ -54,3 +56,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
