@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-        <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Travel Nurse App</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body class="bg-light">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Travel Nurse App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <h1 class="header bg-dark">Travel Nurses Job Spot
-            <i class="far fa-plus-square"></i>
-        </h1>
-        
-       <div class="search-container">    
-            <div class="input-group mb-5 row" >
-                <div class="col-md-6">
-                    <select id="select1" onmousedown="if(this.div){this.size=8;}"  onchange='this.size=0;' onblur="this.size=0;"> 
-                    </select>
-                </div>
-               
-                <div class="col-md-6">
-                    <select id="select2" onmousedown="if(this.div){this.size=8;}"  onchange='this.size=0;' onblur="this.size=0;">
-                    </select>
-                </div>  
-                
-                <button class="button secondary">Compare</button>
-          </div>
-       </div>
-        
-      </div>
-      <div class="container">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+        integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+    <h1 class="header bg-dark">Travel Nurses Job Spot
+        <i class="far fa-plus-square"></i>
+    </h1>
+
+    <div class="search-container">
+        <h3 style="color: red; width: 800px;">Apologies for the inconvenience</h3>
+        <h3 style="color: red; width: 800px;">The API for this app is no longer working</h3>
+        <div class="input-group mb-5 row">
+            <div class="col-md-6">
+                <select id="select1" onmousedown="if(this.div){this.size=8;}" onchange='this.size=0;'
+                    onblur="this.size=0;">
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <select id="select2" onmousedown="if(this.div){this.size=8;}" onchange='this.size=0;'
+                    onblur="this.size=0;">
+                </select>
+            </div>
+
+            <button class="button secondary">Compare</button>
+        </div>
+    </div>
+
+    </div>
+    <div class="container">
         <div class="row">
             <div class="jumbotron text-center col-md-5 mb-3" id="job-background1">
                 <h1 class="display-4" id="jobtitle1">Job Title</h1>
@@ -55,13 +64,17 @@
                 <div id="disposableincome2">Disopsable Income: $XXX</div>
             </div>
         </div>
-        
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"
-        integrity="sha256-H9jAz//QLkDOy/nzE9G4aYijQtkLt9FvGmdUTwBk6gs=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+            integrity="sha256-H9jAz//QLkDOy/nzE9G4aYijQtkLt9FvGmdUTwBk6gs=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+            integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
         <script src="script.js"></script>
     </div>
-    </body>
+</body>
+
 </html>
